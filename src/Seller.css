@@ -1,0 +1,88 @@
+/* Seller.css */
+.seller-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 600px;
+}
+
+.text-container h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.text-container p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.additional-section {
+    margin-top: 40px;
+}
+
+.additional-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.sub-options {
+    text-align: center;
+    font-size: 20px;
+}
+
+.easy-way-text {
+    font-weight: bold;
+}
+
+/* Added styles for alternating text and image sections */
+.section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-left,
+.text-right,
+.image-left,
+.image-right {
+    flex-basis: calc(50% - 20px);
+    /* Adjust the width of each section */
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.text-left p,
+.text-right p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image-left img,
+.image-right img {
+    max-width: 100%;
+    height: auto;
+}

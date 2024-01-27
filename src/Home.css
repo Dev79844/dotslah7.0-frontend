@@ -1,0 +1,38 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    /* Change to column layout */
+    align-items: center;
+    padding: 25px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    /* Set a max-width for content */
+    margin: 0 auto;
+    /* Center the content */
+}
+
+.text-container {
+    max-width: 600px;
+}
+
+.text-container h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    /* Adjust to 100% */
+    height: auto;
+}
+
+.additional-text {
+    margin-top: 20px;
+    /* Add margin to separate additional text */
+}
